@@ -1,0 +1,50 @@
+body{
+  background-image: linear-gradient(135deg, #ff9431 0, #ff833e 10%, #ff7249 20%, #ff5f50 30%, #ff4c55 40%, #ff3858 50%, #e92459 60%, #d40d5a 70%, #c1005c 80%, #b0005d 90%, #a0005f 100%);
+}
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+ 
+}
+
+.cantidad{
+  width: 60px;
+}
+.option{
+  border:none;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  width:100%;
+  width: 20px;
+
+  text-align: end;
+}
+
+
+.contenedor{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#resultado,#resultado2{
+  font-weight: bolder;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin:auto;
+  text-align: center;
+}
+
+.formulario input,textarea{
+  width: 200px;
+}
+
+
+
